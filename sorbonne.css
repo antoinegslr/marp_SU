@@ -51,6 +51,17 @@ section.lead {
     top:7%;
   }
 
+  table, tr, td, th {
+    all: unset;
+  
+    /* Override contextual styling */
+    border: 0 !important;
+    background: transparent !important;
+  }
+  table { display: table; }
+  tr { display: table-row; }
+  td, th { display: table-cell; }  
+
 table {
     border: none;
     font-weight:normal;
