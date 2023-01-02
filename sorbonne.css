@@ -10,7 +10,7 @@
 }
 
 blockquote {
-  background: var(--bg-color-alt);
+  background: linear-gradient(to bottom right, #f7f7f7 0%, #8f96bf 100%);
   border-left: 10px solid var(--border-color);
   margin: 0.5em;
   padding: 0.5em;
