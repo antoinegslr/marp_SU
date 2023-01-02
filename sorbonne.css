@@ -9,6 +9,13 @@
   --mark-bg: #8f96bf;
 }
 
+blockquote {
+  background: var(--bg-color-alt);
+  border-left: 10px solid var(--border-color);
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
 section.lead {
     background-image: url(https://lbdv.imev-mer.fr/wp-content/uploads/logo-su-sciences-color-middle.png);
     background-size: 250px; background-repeat: no-repeat; background-position: 7% 7%;
