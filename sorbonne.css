@@ -53,6 +53,7 @@ section.lead {
 
 table {
     border: none;
+    font-weight:normal;
 }
 tr {
   border: none;
