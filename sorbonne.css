@@ -54,7 +54,14 @@ section.lead {
 table {
     border: none;
 }
-
+tr {
+  border: none;
+  background-color: white;
+}
+th {
+  border: none;
+  background-color: white;
+}
 section::after {
   font-size: 0.75em;
   content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
