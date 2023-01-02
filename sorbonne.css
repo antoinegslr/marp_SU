@@ -1,6 +1,14 @@
 /* @theme sorbonne */
 
 @import 'default';
+
+:root {
+  --border-color: #1D2769;
+  --text-color: #0a0a0a;
+  --bg-color-alt: #dadada;
+  --mark-bg: #ffef92;
+}
+
 section.lead {
     background-image: url(https://lbdv.imev-mer.fr/wp-content/uploads/logo-su-sciences-color-middle.png);
     background-size: 250px; background-repeat: no-repeat; background-position: 7% 7%;
@@ -38,4 +46,22 @@ section.lead {
 
 table {
     border: none;
+}
+
+section::after {
+  font-size: 0.75em;
+  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+}
+
+mark {
+  background-color: var(--mark-bg);
+  border-radius: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 0px 4px 2px 4px;
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
 }
