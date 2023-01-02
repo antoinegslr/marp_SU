@@ -80,3 +80,8 @@ img[alt~="center"] {
   margin: 0 auto;
   max-width: 500px;
 }
+
+span {
+  font-size: 1em;
+  font-color: rgb(85, 85, 85);
+}
